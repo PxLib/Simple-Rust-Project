@@ -23,7 +23,7 @@ fn main() {
 
 fn spawn_player(mut commands: Commands, ascii: Res<AsciiSheet>) {
     let mut sprite = TextureAtlasSprite::new(1);
-    sprite.color = Color::rgb(0.3, 0.3, 0.9);
+    sprite.color = Color::rgb(0.3, 0.3, 0.8);
     sprite.custom_size = Some(Vec2::splat(1.0));
 
     let player = commands
